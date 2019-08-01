@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^confirmation/([a-zA-Z0-9_-]+)$ confirm.php?key=$1
+RewriteRule ^confirmation/([a-zA-Z0-9_-]+)/$ confirm.php?key=$1
